@@ -3,9 +3,11 @@
 ## Contents
 This repository contains simulation code to control a Quadcopter using ROS/Gazebo. This is done by sending ROS topics from Simulink, using blocks from blocks from from ROS toolbox. To control the drone following architecture of Simulink/Gazebo is implemented:
 ![image](https://user-images.githubusercontent.com/37011467/122595736-8164e400-d086-11eb-9aad-922a00a58af5.png)
+                                      
                                       Working architecture of the simulation model
 ![image](https://user-images.githubusercontent.com/37011467/122599110-6fd20b00-d08b-11eb-9bdf-a53271d75193.png)
-                                                    Simulation Architecture simulink
+                                                   
+                                             Simulation Architecture simulink
 
 For the moment, these models control the drone with ID 1, but you can change the topics of the Subscribe and Publish blocks to control another drone.
 ## Testing parameters of the model

@@ -1,1 +1,4 @@
-# Quadcopter_SimulinkGAZEBO
+                                                                # Quadcopter_SimulinkGAZEBO
+
+
+How to setup the simulation

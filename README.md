@@ -10,12 +10,28 @@ This repository contains simulation code to control a Quadcopter using ROS/Gazeb
                                              Simulation Architecture simulink
 
 For the moment, these models control the drone with ID 1, but you can change the topics of the Subscribe and Publish blocks to control another drone.
-## Testing parameters of the model
+## Tested dependencies of the model
 The simulation is tested to be working on the following dependencies:
 1) ROS Kinetic
 2) GAZEBO 7 
-3) Ubuntu 16.04.7 LTS (Xenial Xerus)
+3) Ubuntu 16.04.7 LTS 
+4) Vmware workstation 16 player(Hihgly recommeded for connection with MATLAB
+# Installing dependencies
+1) ROS Kinetic
+
+          http://wiki.ros.org/kinetic/Installation/Ubuntu            
+            
+2) Gazebo 7
+
+                sudo apt-get install gazebo7
+3) UBUNTU 16.04.7 LTS
+
+              https://releases.ubuntu.com/16.04/
+              
 4) Vmware workstation 16 player
+
+        https://www.vmware.com/in/products/workstation-player.html
+
 
 ## Setting up the model
 Quick install and run process(ROS side; Using Bash)

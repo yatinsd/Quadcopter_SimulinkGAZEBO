@@ -8,7 +8,23 @@ This repository contains simulation code to control a Quadcopter using ROS/Gazeb
                                      Simulation Architecture simulink
 
 For the moment, these models control the drone with ID 1, but you can change the topics of the Subscribe and Publish blocks to control another drone.
+## Testing parameters of the model
+The simulation is tested to be working on the following dependencies:
+1) ROS Kinetic
+2) GAZEBO 7 
+3) Ubuntu 16.04.7 LTS (Xenial Xerus)
+4) Vmware workstation 16 player
+
 ## Setting up the model
+Quick install and run process(ROS side; Using Bash)
+1) If not done make scripts executable: chmod +x setup.sh chmod +x run_gzb.sh chmod +x start_uav.sh
+
+2) Run setup script (this should be done once for a fresh install without ROS or gazebo alreaded installed, in case of error run required commands by hand step by step) ./setup.sh
+
+3) Start gazebo environment simulator and ROS server ./run_gzb.sh
+
+4) Add a robot to the scene with default ID ./start_uav.sh
+
 To connect Simulink with the ROS server, follow these steps:
 
 1) In MATLAB, execute the rosinit function with the IP of the virtual machine
@@ -18,10 +34,5 @@ To connect Simulink with the ROS server, follow these steps:
 5) Test the connectivity using the Test button
 
 
-
-## Dependencies
-The simulation has been tested on the following dependencies:
-1) ROS Kinetic 
-2) GAZEBO 7 
-3) Ubuntu 16.04.7 LTS (Xenial Xerus)
-4) Vmware workstation 16 player
+#Notes
+If a model can control the drone but does not receive any data from the drone, make sure you have set the ROS_IP environment variable in the VM before running ROS.

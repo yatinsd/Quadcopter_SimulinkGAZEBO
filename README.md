@@ -51,8 +51,25 @@ To connect Simulink with the ROS server, follow these steps:
 4) In Node Host, make sure Network Address is set to Default
 5) Test the connectivity using the Test button
 
+## Testing plan of the code on 
+When testing the code on a real drone make sure of the following:
+1) Always tune the PID Values within less windy areas 
+2) Redundancy in communication channels during initial tuning.
+3) 
 
-# Notes 
+## Reasons behind your choice of tech stack
+Matlab has its advantage of model-based design strategy which gives its quick turnaround time with a high level view of the model internal data giving the user access to deep understanding along with production quality code generation plugins for various types of embedded platforms and SOC. Also Matlab has various pre built libraries of many algorythms in robotics ready to deploy making prototyping a breeze.
+
+## Planned upgrades on the stack 
+The stack will be upgraded :
+1) GPS Sensor for accurate estimations 
+2) ROS2 in the coming week for the reasons below:
+            a) Support real-time control: ROS2 also adds support for real-time control, which can improve the timeliness of control and the performance of the overall robot.
+            b) Multi-platform support: ROS2 not only runs on Linux systems, but also adds support for Windows, MacOS, RTOS and other systems, giving developers more choices. 
+3) UI for different controls bridging inputs and outputs of Gazebo and Matlab in one place.
+4) Better input mechanism for different drone platforms.
+
+## Notes 
 1) If a model can control the drone but does not receive any data from the drone:
     a)  Make sure you have set the ROS_IP environment variable in the VM before running ROS
     b)  See if the port on VM is listening 

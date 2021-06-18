@@ -19,14 +19,14 @@ The simulation is tested to be working on the following dependencies:
 # Installing dependencies
 1) ROS Kinetic
 
-          http://wiki.ros.org/kinetic/Installation/Ubuntu            
+        http://wiki.ros.org/kinetic/Installation/Ubuntu            
             
 2) Gazebo 7
 
-                sudo apt-get install gazebo7
+        sudo apt-get install gazebo7
 3) UBUNTU 16.04.7 LTS
 
-              https://releases.ubuntu.com/16.04/
+        https://releases.ubuntu.com/16.04/
               
 4) Vmware workstation 16 player
 

@@ -6,7 +6,10 @@ This repository contains simulation code to control a Quadcopter using ROS/Gazeb
 
                                       
                                       Working architecture of the simulation model
-            ![image](https://user-images.githubusercontent.com/37011467/122610478-58038280-d09d-11eb-8b71-7c96ea866f47.png)
+                                      
+                                      
+      
+   ![image](https://user-images.githubusercontent.com/37011467/122610478-58038280-d09d-11eb-8b71-7c96ea866f47.png)
                                         
                                              Simulation Architecture Simulink
 

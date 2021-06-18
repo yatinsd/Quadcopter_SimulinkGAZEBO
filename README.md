@@ -34,5 +34,5 @@ To connect Simulink with the ROS server, follow these steps:
 5) Test the connectivity using the Test button
 
 
-#Notes
+# Notes
 If a model can control the drone but does not receive any data from the drone, make sure you have set the ROS_IP environment variable in the VM before running ROS.

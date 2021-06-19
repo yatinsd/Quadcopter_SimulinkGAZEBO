@@ -91,3 +91,6 @@ The stack will be upgraded :
 1) If a model can control the drone but does not receive any data from the drone:
     a)  Make sure you have set the ROS_IP environment variable in the VM before running ROS
     b)  See if the port on VM is listening
+2) If Gazebo keeps crashing export the below variable to adjust the problem
+    
+                        export SVGA_VGPU10=0

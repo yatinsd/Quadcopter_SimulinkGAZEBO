@@ -67,8 +67,7 @@ To connect Simulink with the ROS server, follow these steps:
 ## Testing plan of the code on 
 When testing the code on a real drone make sure of the following:
 1) Always tune the PID Values within less windy areas 
-2) Redundancy in communication channels during initial tuning.
-3) 
+2) Redundancy in communication channels during initial tuning is required.
 
 
 
@@ -78,7 +77,8 @@ Matlab has the advantage of a model-based design strategy which gives its quick 
 ## Planned upgrades on the stack 
 The stack will be upgraded :
 1) GPS Sensor for accurate estimations 
-2) ROS2 in the coming week for the reasons below:
+2) Build the code through code generator for NVIDIA Jetson XAVIER AGX
+3) ROS2 in the coming week for the reasons below:
             a) Support real-time control: ROS2 also adds support for real-time control, which can improve the timeliness of control and the performance of the overall robot.
             b) Multi-platform support: ROS2 not only runs on Linux systems, but also adds support for Windows, MacOS, RTOS and other systems, giving developers more choices. 
 3) UI for different controls bridging inputs and outputs of Gazebo and Matlab in one place.
